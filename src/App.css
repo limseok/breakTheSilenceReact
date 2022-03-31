@@ -1,0 +1,168 @@
+.App {
+  text-align: center;  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: url('./fondo.jpg');  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.box{
+  border-left: solid;
+}
+.person-row{
+  margin: 10px 0px;
+  padding: 10px;
+  width: 100%;
+  float: left;
+  background-color: #FDB45C;
+}
+.person-info{
+  float: left;
+}
+.person-row > button{
+  float: right;
+} 
+.person-row img{
+  float: left;
+  margin-right: 20px;
+}
+button{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #ba1871c9;
+  border-radius: 6px;
+  border: 2px solid #38b000;
+}
+select{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #ba1871c9;
+  border-radius: 6px;
+  border: 2px solid #38b000;
+}
+label{
+  font-weight: 600;
+  font-size: 30px;
+  color: #f8d927d7;
+  background-color: #1883ba;
+  font-size: 150%;
+  border: 2px solid #38b000;
+}
+.person-row{  
+  margin: 10px 10px;
+  padding: 10px;
+  width: 100%;
+  float: left;
+  background-color: #FDB45C;
+  border: solid;
+}
+
+.person-perfilSuga{
+  margin: 10px 10px;
+  padding: 10px;
+  width: 100%;
+  float: left;
+  background-color: white;
+  border: solid #0016b0;
+}
+
+.person-perfilRamon{
+  margin: 10px 10px;
+  padding: 10px;
+  width: 100%;
+  float: left;
+  background-color: black;
+  border: solid;
+}
+
+.person-perfilKook{
+  margin: 10px 10px;
+  padding: 10px;
+  width: 100%;
+  float: left;
+  background-color: red;
+  border: solid;
+}
+
+.person-perfilHope{
+  margin: 10px 10px;
+  padding: 10px;
+  width: 100%;
+  float: left;
+  background-color: #38b000;
+  border: solid;
+}
+
+.person-perfilJimin{
+  margin: 10px 10px;
+  padding: 10px;
+  width: 100%;
+  float: left;
+  background-color: blue;
+  border: solid;
+}
+
+.person-perfilJin{
+  margin: 10px 10px;
+  padding: 10px;
+  width: 100%;
+  float: left;
+  background-color: pink;
+  border: solid;
+}
+
+.person-perfilV{
+  margin: 10px 10px;
+  padding: 10px;
+  width: 100%;
+  float: left;
+  background-color: purple;
+  border: solid;
+}
+i{
+  color: #6872c0;  
+}
+.person-Van{
+  background: url('./bt21/van.gif'); 
+  border: solid;  
+}
+
+.text-van{
+  color: black;
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "number":1,
+        "name":"Yamil(Suga)",
+        "selection":"rl",
+        "all":"t",
+        "hobby":["bailar" ,"jugar" ,"ver videos","doramas"],
+        "avatar":"/src/bt21/6.jpg"
+    },
+    {
+        "number":2,
+        "name":"Cristian(Rap Monster)",
+        "selection":"rl",
+        "all":"t",
+        "hobby":["me gusta escuchar la melodia de tu voz"],
+        "avatar":"./bt21/3.jpg"
+    },
+    {
+        "number":3,
+        "name":"Kevin(Kook)",
+        "selection":"vl",
+        "all":"t",
+        "hobby":["Bailar", "Jugar", "Dormir", "Tocar guitarra", "Ver peliculas", "Dormir"],
+        "avatar":"./bt21/2.png"
+    },
+    {
+        "number":4,
+        "name":"Limber(J-hope)",
+        "selection":"rl",
+        "all":"t",
+        "hobby":["bailar", "jugar", "estudiar","rapear","mirar videos"],
+        "avatar":"./bt21/4.jpg"
+    },
+    {
+        "number":5,
+        "name":"Jhey(Jimin)",
+        "selection":"vl",
+        "all":"t",
+        "hobby":["loading"],
+        "avatar":"./bt21/1.jpg"
+    },
+    {
+        "number":6,
+        "name":"Mattias(Jin)",
+        "selection":"vl",
+        "all":"t",
+        "hobby":["editar", "hacer video", "tocarme el cabello"],
+        "avatar":"./bt21/5.jfif"
+    },
+    {
+        "number":7,
+        "name":"Yerald(V)",
+        "selection":"vl",
+        "all":"t",
+        "hobby":["loading"],
+        "avatar":"./bt21/7.jfif"
+    }
+]
