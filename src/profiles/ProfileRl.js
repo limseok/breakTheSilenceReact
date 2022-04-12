@@ -39,8 +39,10 @@ export default function ProfileRl( {selection} ) {
                               <div>{e.hobby}</div>
                               </div>
                               
-                              <Link to={`/${ventanas[index]}`}>                          
-                              <button>Ver Perfil</button>                        
+                              <Link to={`/${ventanas[index]}`}>                                                      
+                                <p align="right">
+                                    <button>Ver Perfil</button>                        
+                                </p>
                               </Link>                                    
                               
                               </div>;
@@ -57,8 +59,10 @@ export default function ProfileRl( {selection} ) {
                                 <div>{e.hobby}</div>
                                 </div>
 
-                                <Link to={`/${ventanas[index]}`}>                          
-                                <button>Ver Perfil</button>                        
+                                <Link to={`/${ventanas[index]}`}>
+                                    <p align="right">
+                                        <button>Ver Perfil</button>                        
+                                    </p>                          
                                 </Link>                                    
                               
                                 </div>;

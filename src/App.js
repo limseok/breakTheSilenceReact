@@ -6,7 +6,7 @@ import Presentacion from './pages/Presentacion';
 import Van from './pages/Van';
 import Bonus from './pages/Bonus';
 import Datos from './datos.json';
-
+import Formulario from './components/Formulario';
 
 import Ventana from './ventanas/Ventana';
 import ProfileRl from './profiles/ProfileRl';
@@ -56,8 +56,8 @@ function App() {
                   SetSelection(e.target.value);
                   history.push('/profile');
                 }
-              }}>
-                <option>click</option>                
+              }}>                
+                <option>click</option>                              
                 <option  value='t'>Todos</option>
                 <option  value="rl">Rap Line</option>
                 <option  value='vl'>Vocal Line</option>
@@ -102,7 +102,7 @@ function App() {
             
             
           </div>
-        </div>             
+        </div>        
         </header>        
     </div>
   );

@@ -36,7 +36,9 @@ export default function Ventana(props) {
                 </div>                        
                 <Router>
                 <Link to={`/${ventanas[number-1]}`}>
-                    <button>Ver Perfil</button>                                                 
+                    <p align="right">
+                        <button>Ver Perfil</button>                                                 
+                    </p>
                 </Link>
 
                 <Switch>
