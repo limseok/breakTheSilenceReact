@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/breakTheSilenceReact/static/css/main.9cfb7074.css",
-    "main.js": "/breakTheSilenceReact/static/js/main.9db18acd.js",
+    "main.css": "/breakTheSilenceReact/static/css/main.ab7c902b.css",
+    "main.js": "/breakTheSilenceReact/static/js/main.6a54dd2b.js",
     "static/js/787.a9e47e78.chunk.js": "/breakTheSilenceReact/static/js/787.a9e47e78.chunk.js",
     "static/media/chimmy.gif": "/breakTheSilenceReact/static/media/chimmy.33813f89a810f3d05d74.gif",
     "static/media/2.png": "/breakTheSilenceReact/static/media/2.2c57ee0db95debc90f8d.png",
@@ -27,12 +27,12 @@
     "static/media/5.jfif": "/breakTheSilenceReact/static/media/5.70d0220bf0003bed7bb6.jfif",
     "static/media/7.jfif": "/breakTheSilenceReact/static/media/7.c1c585b03ce19ae97f68.jfif",
     "index.html": "/breakTheSilenceReact/index.html",
-    "main.9cfb7074.css.map": "/breakTheSilenceReact/static/css/main.9cfb7074.css.map",
-    "main.9db18acd.js.map": "/breakTheSilenceReact/static/js/main.9db18acd.js.map",
+    "main.ab7c902b.css.map": "/breakTheSilenceReact/static/css/main.ab7c902b.css.map",
+    "main.6a54dd2b.js.map": "/breakTheSilenceReact/static/js/main.6a54dd2b.js.map",
     "787.a9e47e78.chunk.js.map": "/breakTheSilenceReact/static/js/787.a9e47e78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cfb7074.css",
-    "static/js/main.9db18acd.js"
+    "static/css/main.ab7c902b.css",
+    "static/js/main.6a54dd2b.js"
   ]
 }
