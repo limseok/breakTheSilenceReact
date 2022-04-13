@@ -1,5 +1,4 @@
-
-import {BrowserRouter as Router, Link ,Switch, Route} from "react-router-dom";
+import {BrowserRouter as Router, Link ,Switch, Route, useHistory} from "react-router-dom";
 
 import Yamil from '../pages/Yamil';
 import Cristian from '../pages/Cristian';
@@ -16,6 +15,7 @@ import Cuatro from '../bt21/4.jpg';
 import Seis from '../bt21/5.jfif';
 import Uno from '../bt21/6.jpg';
 import Siete from '../bt21/7.jfif';
+import { useState } from "react";
 
 
 
@@ -24,6 +24,7 @@ export default function Ventana(props) {
     const ventanas = ['uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete'];
     const bt21 = [Uno, Dos, Tres, Cuatro, Cinco, Seis, Siete];  
     const {name, hobby, number} = props;      
+    const history = useHistory();
     
     return(
         <div>            
@@ -34,8 +35,8 @@ export default function Ventana(props) {
                 <div><h1><i>{name}</i></h1></div>
                 <div>{hobby}</div>
                 </div>                        
-                <Router>
-                <Link to={`/${ventanas[number-1]}`}>
+                
+                <Link to={`/${ventanas[number-1]}`}>                    
                     <p align="right">
                         <button>Ver Perfil</button>                                                 
                     </p>
@@ -50,7 +51,7 @@ export default function Ventana(props) {
                 <Route path={'/seis'}><Mattias/></Route> 
                 <Route path={'/siete'}><Yerald/></Route>                 
                 </Switch>
-                </Router>            
+                            
             </div> 
         </div>
     );

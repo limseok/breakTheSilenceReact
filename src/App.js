@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
-import {Route, Switch, Link} from 'react-router-dom';
-import { useHistory } from 'react-router-dom';
+import {Route, Switch, Link, useHistory} from 'react-router-dom';
 import './App.css';
 import Presentacion from './pages/Presentacion';
 import Van from './pages/Van';
 import Bonus from './pages/Bonus';
 import Datos from './datos.json';
-import Formulario from './components/Formulario';
 
 import Ventana from './ventanas/Ventana';
 import ProfileRl from './profiles/ProfileRl';

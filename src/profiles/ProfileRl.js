@@ -18,15 +18,16 @@ import Cuatro from '../bt21/4.jpg';
 import Seis from '../bt21/5.jfif';
 import Uno from '../bt21/6.jpg';
 import Siete from '../bt21/7.jfif';
+import { useHistory } from "react-router-dom";
 
 
 
 export default function ProfileRl( {selection} ) { 
     const ventanas = ['uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete'];
-    const bt21 = [Uno, Dos, Tres, Cuatro, Cinco, Seis, Siete];            
+    const bt21 = [Uno, Dos, Tres, Cuatro, Cinco, Seis, Siete]; 
+       
     return(
-        <div>   
-            <Router>
+        <div>               
             {                
                 Datos.map((e,index) => {  
                     if(e.selection == selection){
@@ -79,8 +80,7 @@ export default function ProfileRl( {selection} ) {
                             <Route path={'/cinco'}><Jhey/></Route> 
                             <Route path={'/seis'}><Mattias/></Route> 
                             <Route path={'/siete'}><Yerald/></Route>                 
-                        </Switch>
-              </Router>                 
+                        </Switch>                               
         </div>
     );
 }
