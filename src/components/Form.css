@@ -1,0 +1,62 @@
+
+.header {
+    background: url('../bts.jpg') no-repeat center center fixed;      
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.form {
+    padding: 40px;
+    max-width:600px;
+    margin:40px auto;
+    box-shadow:0 4px 10px 4px;  
+    background: rgb(5, 114, 141);  
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.button-block {
+    display:block;
+    width:100%;
+}
+
+button {
+    background: rgb(0, 255, 157);  
+    display:block;
+    text-decoration:none;
+    padding:15px;
+    background:rgba(gray-light,.25);
+    color:gray-light;
+    font-size:20px;
+    float:left;
+    width:50%;
+    text-align:center;
+    cursor:pointer;
+    transition:.5s ease
+}
+
+.field-wrap {
+    position:relative;
+    margin-bottom:40px;
+}
+
+input {
+    font-size:22px;
+    display:block;
+    width:100%;
+    height:100%;
+    padding:5px 10px;
+    background:none;
+    background-image:none;
+    border:1px solid gray;
+    color:whitewelco;
+    border-radius:0;
+    transition:border-color .25s ease, box-shadow .25s ease;
+}
