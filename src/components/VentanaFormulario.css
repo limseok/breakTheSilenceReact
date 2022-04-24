@@ -1,0 +1,12 @@
+  .title {
+    color: yellow; 
+    font-size: 60px; 
+    font-weight:bold;
+  }
+  
+  .btn-registro {
+    font-size: 35px;    
+    border-radius: 9px;
+    color: white;
+  }
+  

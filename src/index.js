@@ -6,6 +6,9 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import { BrowserRouter as Router } from 'react-router-dom';
+import Page from './components/Page';
+import SignUp from './components/SignUp';
+import LogIn from './components/Login';
 
 ReactDOM.render(
   <React.StrictMode>

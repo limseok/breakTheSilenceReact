@@ -1,5 +1,5 @@
 
-.header {
+.header-form {
     background: url('../bts.jpg') no-repeat center center fixed;      
     background-size: cover;
     min-height: 100vh;
@@ -11,7 +11,7 @@
     color: white;
 }
 
-.form {
+.div-form {
     padding: 40px;
     max-width:600px;
     margin:40px auto;
@@ -22,12 +22,7 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-.button-block {
-    display:block;
-    width:100%;
-}
-
-button {
+.btn-registro {
     background: rgb(0, 255, 157);  
     display:block;
     text-decoration:none;
@@ -39,7 +34,23 @@ button {
     width:50%;
     text-align:center;
     cursor:pointer;
-    transition:.5s ease
+    transition:.5s ease;
+}
+.button-block {
+    background: rgb(0, 255, 157);  
+    display:block;
+    text-decoration:none;
+    padding:15px;
+    background:rgba(gray-light,.25);
+    color:white;
+    float:left;
+    width:50%;
+    text-align:center;
+    cursor:pointer;
+    transition:.5s ease;
+    width:100%;
+    font-size: 35px;    
+    border-radius: 9px;
 }
 
 .field-wrap {
@@ -47,7 +58,7 @@ button {
     margin-bottom:40px;
 }
 
-input {
+.input-registro {
     font-size:22px;
     display:block;
     width:100%;
@@ -59,4 +70,8 @@ input {
     color:whitewelco;
     border-radius:0;
     transition:border-color .25s ease, box-shadow .25s ease;
+}
+
+.titleLogin {
+    font-size: 50px;
 }

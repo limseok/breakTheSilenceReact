@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import './Form.css';
+import '../components/Form.css';
 
 export default function SignUp () {
-    const [formulario, setFormulario] = useState({ name: '', lastName: '', email: '', phone: ''});
+    const [formulario, setFormulario] = useState({ name: '', lastName: '', phone: '', email: '', password: ''});
     const [usuarios, setUsuarios] = useState([]);
     const handleChange = (e) => {
         setFormulario({
@@ -18,14 +18,17 @@ export default function SignUp () {
             formulario
         ]);
     }
+
+    console.log(usuarios, formulario);
     
     return(
-        <div className="form">
+        <div className="div-form">
             <form onSubmit={handleSubmit} action="/" method="POST">
                 <div className='top-row'>                    
-                    <h1>Sign Up for free</h1>
+                    <h1 className="titleLogin">Sign Up for free</h1>
                     <div className='field-wrap'>
                         <input 
+                            className="input-registro"
                             name="name" 
                             type={'text'} 
                             placeholder="Name" 
@@ -35,6 +38,7 @@ export default function SignUp () {
                     </div>
                     <div className='field-wrap'>
                         <input 
+                            className="input-registro"
                             name="lastName" 
                             type={'text'} 
                             placeholder="LastName" 
@@ -44,6 +48,17 @@ export default function SignUp () {
                     </div>
                     <div className='field-wrap'>
                         <input 
+                            className="input-registro"
+                            name="phone" 
+                            type={'text'} 
+                            placeholder="Phone" 
+                            value={formulario.phone} 
+                            onChange={handleChange}
+                        />
+                    </div>
+                    <div className='field-wrap'>
+                        <input 
+                            className="input-registro"
                             name="email" 
                             type={'email'} 
                             placeholder="Email" 
@@ -52,11 +67,12 @@ export default function SignUp () {
                         />
                     </div>
                     <div className='field-wrap'>
-                        <input 
-                            name="phone" 
-                            type={'text'} 
-                            placeholder="Phone" 
-                            value={formulario.phone} 
+                        <input
+                            className="input-registro"
+                            name="password"
+                            type={'password'}
+                            placeholder="Password"
+                            value={formulario.password}
                             onChange={handleChange}
                         />
                     </div>

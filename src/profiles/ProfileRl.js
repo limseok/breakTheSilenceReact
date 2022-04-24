@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter as Router, Route, Switch, Link} from "react-router-dom";
+import {Route, Switch, Link} from "react-router-dom";
 
 import Datos from '../datos.json';
 
@@ -18,7 +18,6 @@ import Cuatro from '../bt21/4.jpg';
 import Seis from '../bt21/5.jfif';
 import Uno from '../bt21/6.jpg';
 import Siete from '../bt21/7.jfif';
-import { useHistory } from "react-router-dom";
 
 
 
@@ -37,15 +36,14 @@ export default function ProfileRl( {selection} ) {
                               <img src={bt21[index]} width="200px" height="200px"/>
                               <div className='person-info'>
                               <div><h1><i>{e.name}</i></h1></div>
-                              <div>{e.hobby}</div>
+                              <div>{e.hobby.map((lista, i)=> <li key={e.number+i}>{lista}</li>)}</div>
                               </div>
                               
                               <Link to={`/${ventanas[index]}`}>                                                      
                                 <p align="right">
-                                    <button>Ver Perfil</button>                        
+                                    <button className="button">Ver Perfil</button>                        
                                 </p>
-                              </Link>                                    
-                              
+                              </Link>                                                                  
                               </div>;
                           </div>
                           
@@ -57,15 +55,14 @@ export default function ProfileRl( {selection} ) {
                                 <img src={bt21[index]} width="200px" height="200px"/>
                                 <div className='person-info'>
                                 <div><h1><i>{e.name}</i></h1></div>
-                                <div>{e.hobby}</div>
+                                <div>{e.hobby.map((lista, i)=> <li key={e.number+i}>{lista}</li>)}</div>
                                 </div>
 
                                 <Link to={`/${ventanas[index]}`}>
                                     <p align="right">
-                                        <button>Ver Perfil</button>                        
+                                        <button className="button">Ver Perfil</button>                        
                                     </p>                          
-                                </Link>                                    
-                              
+                                </Link>                                                                
                                 </div>;
                             </div>
                         );

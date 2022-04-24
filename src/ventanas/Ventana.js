@@ -15,7 +15,6 @@ import Cuatro from '../bt21/4.jpg';
 import Seis from '../bt21/5.jfif';
 import Uno from '../bt21/6.jpg';
 import Siete from '../bt21/7.jfif';
-import { useState } from "react";
 
 
 
@@ -33,15 +32,14 @@ export default function Ventana(props) {
                 <img src={bt21[number-1]} width="200px" height="200px"/>
                 <div className='person-info'>
                 <div><h1><i>{name}</i></h1></div>
-                <div>{hobby}</div>
+                <div>{hobby.map((lista, i)=> <li key={number+i}>{lista}</li>)}</div>
                 </div>                        
                 
                 <Link to={`/${ventanas[number-1]}`}>                    
                     <p align="right">
-                        <button>Ver Perfil</button>                                                 
+                        <button className="button">Ver Perfil</button>                                                 
                     </p>
-                </Link>
-
+                </Link>                
                 <Switch>
                 <Route path={'/uno'}><Yamil/></Route>
                 <Route path={'/dos'}><Cristian/></Route>
