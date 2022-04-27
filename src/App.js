@@ -1,14 +1,13 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Page from './components/Page';
 import VentanaFormulario from './components/VentanaFormulario';
-import Iconos from './components/Iconos';
-import Yamil from './pages/Yamil';
 
 function App() {                         
-        
   return (
-    <Page/>
-  );
+    <div>
+      {window.confirm("desea saltar el registro?")? <Page/>:<VentanaFormulario/>}
+    </div>
+  )
 }
 
 export default App;

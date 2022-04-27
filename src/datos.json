@@ -4,7 +4,7 @@
         "name":"Yamil(Suga)",
         "selection":"rl",
         "all":"t",
-        "hobby":["bailar" ,"jugar" ,"ver videos","doramas"],
+        "hobby":["bailar" ,"jugar" ,"ver doramas","doramas"],
         "avatar":"/src/bt21/6.jpg"
     },
     {
@@ -12,7 +12,7 @@
         "name":"Cristian(Rap Monster)",
         "selection":"rl",
         "all":"t",
-        "hobby":["me gusta escuchar la melodia de tu voz"],
+        "hobby":["me gusta escuchar", "la melodia de tu voz"],
         "avatar":"./bt21/3.jpg"
     },
     {

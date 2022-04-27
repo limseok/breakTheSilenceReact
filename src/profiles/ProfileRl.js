@@ -33,10 +33,9 @@ export default function ProfileRl( {selection} ) {
                         return(
                           <div key={e.name}>
                             <div className="person-row">          
-                              <img src={bt21[index]} width="200px" height="200px"/>
+                              <img className="img-profile" src={bt21[index]} width="200px" height="200px"/>
                               <div className='person-info'>
-                              <div><h1><i>{e.name}</i></h1></div>
-                              <div>{e.hobby.map((lista, i)=> <li key={e.number+i}>{lista}</li>)}</div>
+                              <div className="profile-name"><h1><i>{e.name}</i></h1></div>
                               </div>
                               
                               <Link to={`/${ventanas[index]}`}>                                                      
@@ -52,10 +51,9 @@ export default function ProfileRl( {selection} ) {
                         return(
                             <div key={e.name}>
                                 <div className="person-row">          
-                                <img src={bt21[index]} width="200px" height="200px"/>
+                                <img className="img-profile" src={bt21[index]} width="200px" height="200px"/>
                                 <div className='person-info'>
-                                <div><h1><i>{e.name}</i></h1></div>
-                                <div>{e.hobby.map((lista, i)=> <li key={e.number+i}>{lista}</li>)}</div>
+                                <div className="profile-name"><h1><i>{e.name}</i></h1></div>                                
                                 </div>
 
                                 <Link to={`/${ventanas[index]}`}>

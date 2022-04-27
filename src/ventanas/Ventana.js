@@ -29,10 +29,9 @@ export default function Ventana(props) {
         <div>            
             <div className="person-row">   
 
-                <img src={bt21[number-1]} width="200px" height="200px"/>
+                <img className="img-profile" src={bt21[number-1]} width="200px" height="200px"/>
                 <div className='person-info'>
-                <div><h1><i>{name}</i></h1></div>
-                <div>{hobby.map((lista, i)=> <li key={number+i}>{lista}</li>)}</div>
+                <div className="profile-name"><h1><i>{name}</i></h1></div>                
                 </div>                        
                 
                 <Link to={`/${ventanas[number-1]}`}>                    

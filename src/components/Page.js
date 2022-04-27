@@ -17,7 +17,7 @@ export default function Page() {
         <div className="principal">              
         <header className='App-principal'>          
         <div className='header'><h1 className="titulo-principal">BREAK THE SILENCE</h1></div>
-            <Iconos face='' 
+            <Iconos face='https://www.facebook.com/Break-The-Silence-DC-115299597824362/' 
                     yout='https://www.youtube.com/channel/UCH98TJs4lFu2dMpJqJZs-zQ' 
                     insta='https://www.instagram.com/breakthesilence_dc/' 
                     tik='https://www.tiktok.com/@breakthesilence_dc'/>   
@@ -45,7 +45,7 @@ export default function Page() {
                 Seleccionar              
               </label>
               
-              <select id='selecciona' onChange={(e) => {
+              <select className="select-profiles" onChange={(e) => {
                 if(e.target.value == 'rl'){
                   SetSelection(e.target.value);
                   history.push('/profile');
@@ -55,12 +55,14 @@ export default function Page() {
                 }else if(e.target.value == 't'){
                   SetSelection(e.target.value);
                   history.push('/profile');
+                }else if(e.target.value == 'click'){
+                  history.push('/');
                 }
               }}>                
                 <option>click</option>                              
-                <option  value='t'>Todos</option>
-                <option  value="rl">Rap Line</option>
-                <option  value='vl'>Vocal Line</option>
+                <option value='t'>Todos</option>
+                <option value="rl">Rap Line</option>
+                <option value='vl'>Vocal Line</option>
               </select>
 
             </div>     
@@ -68,11 +70,13 @@ export default function Page() {
                 <label>
                   Integrantes
                 </label>                
-                <select onChange={(past) => {
+                <select className="select-profiles" onChange={(past) => {
                   Datos.map((e)=>{           
                     if(past.target.value == e.number){ 
                       SetContador(past.target.value-1);         
                       history.push('/ventana');    
+                    }else if(past.target.value == 'click'){
+                      history.push('/');
                     }                                                                         
                   });                  
                 }}>                   

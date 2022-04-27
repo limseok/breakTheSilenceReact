@@ -1,22 +1,29 @@
 import React, { useState } from "react";
 import './Form.css';
+import Page from "./Page";
+import VentanaFormulario from "./VentanaFormulario";
 
 export default function LogIn() {
     const [formulario, setFormulario] = useState({ emailAddress: '', password: ''});
-    const handleChange = (e) => {
-        
+    const [usuarios, setUsuarios] = useState([]);
+    const handleChange = (e) => {        
         setFormulario({
             ...formulario,
             [e.target.name]: e.target.value
         })
     }
-
-    const locacion = () => {
-        window.location.replace = './Page.js';
+    
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setUsuarios([
+            ...usuarios,
+            formulario
+        ]);
     }
+
     return(
         <div className="div-form">
-            <form onSubmit={handleChange}>
+            <form onSubmit={handleSubmit}>
                 <div className="top-row">
                     <h1 className="titleLogin">WELCOME BACK</h1>
                     <div className="field-wrap">
@@ -39,8 +46,7 @@ export default function LogIn() {
                             onChange={handleChange}
                         />
                     </div>  
-                    
-                    <button type="submit" className='button-block' onClick={locacion}>LOG IN</button>
+                        <button type="submit" className='button-block'>LOG IN</button>                
                     
                 </div>
                 
