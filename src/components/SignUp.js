@@ -19,7 +19,7 @@ export default function SignUp () {
         ]);
     }
 
-    console.log(usuarios, formulario);
+    
     
     return(
         <div className="div-form">
