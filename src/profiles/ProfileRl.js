@@ -26,7 +26,7 @@ export default function ProfileRl( {selection} ) {
     const bt21 = [Uno, Dos, Tres, Cuatro, Cinco, Seis, Siete]; 
        
     return(
-        <div>               
+        <div className="header">               
             {                
                 Datos.map((e,index) => {  
                     if(e.selection == selection){

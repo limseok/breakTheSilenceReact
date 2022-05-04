@@ -4,7 +4,7 @@ import VentanaFormulario from './components/VentanaFormulario';
 
 function App() {                         
   return (
-    <div>
+    <div className="header">
       {window.confirm("desea saltar el registro?")? <Page/>:<VentanaFormulario/>}
     </div>
   )

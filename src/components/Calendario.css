@@ -1,0 +1,31 @@
+.header-calendary {
+
+    background: url('../calendario.jpg') no-repeat center center ;
+    height: 500px;
+    background-size: cover;
+    
+}
+
+.title-calendary {
+    color: rgb(104, 82, 214);
+    
+}
+
+.meses {
+    color: white;
+    background-color: rgba(31, 29, 29, 0);
+    border: none;
+}
+
+.meses:hover {
+    opacity: 20%;
+    color: yellow; 
+}
+.table {
+    align-items: center;
+    text-align: center;
+}
+
+.tipo {
+    background-color: (31, 29, 29, 0);
+}

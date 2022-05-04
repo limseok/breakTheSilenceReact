@@ -8,6 +8,7 @@ import Datos from '../datos.json';
 import Ventana from '../ventanas/Ventana';
 import ProfileRl from '../profiles/ProfileRl';
 import Iconos from "./Iconos";
+import Calendario from "./Calendario";
 
 export default function Page() {
     const [contador, SetContador] = useState(0);  
@@ -36,6 +37,12 @@ export default function Page() {
             <div className='row'>
               <Link to="/bonus">
                 <button className="btn-page">Bonus</button>
+              </Link>
+            </div>
+
+            <div className="row">
+              <Link to="/calendario">
+                <button className="btn-page">Calendario</button>
               </Link>
             </div>
         <div className='main'>
@@ -98,7 +105,8 @@ export default function Page() {
                 <Route path={'/ventana'}><Ventana name={Datos[contador].name} 
                   hobby={Datos[contador].hobby} number={Datos[contador].number}
                   /></Route>  
-                <Route path={'/profile'}><ProfileRl selection={selection}/></Route>              
+                <Route path={'/profile'}><ProfileRl selection={selection}/></Route>   
+                <Route path={'/calendario'}><Calendario/></Route>           
               </Switch> 
 
             <div>                          

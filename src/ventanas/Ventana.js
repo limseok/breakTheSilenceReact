@@ -26,7 +26,7 @@ export default function Ventana(props) {
     const history = useHistory();
     
     return(
-        <div>            
+        <div className="header">            
             <div className="person-row">   
 
                 <img className="img-profile" src={bt21[number-1]} width="200px" height="200px"/>
