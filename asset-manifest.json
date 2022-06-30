@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/breakTheSilenceReact/static/css/main.d1c2cde9.css",
-    "main.js": "/breakTheSilenceReact/static/js/main.a89feaaf.js",
+    "main.css": "/breakTheSilenceReact/static/css/main.aa37a0c0.css",
+    "main.js": "/breakTheSilenceReact/static/js/main.7ba04437.js",
     "static/js/787.a9e47e78.chunk.js": "/breakTheSilenceReact/static/js/787.a9e47e78.chunk.js",
     "static/media/bts-bt21.gif": "/breakTheSilenceReact/static/media/bts-bt21.1d681da888394b491067.gif",
     "static/media/matt1.JPG": "/breakTheSilenceReact/static/media/matt1.f3256f0e9d8d784df496.JPG",
@@ -23,6 +23,7 @@
     "static/media/yerald1.jpg": "/breakTheSilenceReact/static/media/yerald1.c8ba883ec4bd9973d957.jpg",
     "static/media/ramon1.jpg": "/breakTheSilenceReact/static/media/ramon1.a445b343bab59a8aca8d.jpg",
     "static/media/4.jpg": "/breakTheSilenceReact/static/media/4.33e24a1a12615bc60dbe.jpg",
+    "static/media/avatar.png": "/breakTheSilenceReact/static/media/avatar.4328608a975caa216a4f.png",
     "static/media/kev.jpg": "/breakTheSilenceReact/static/media/kev.33368fe6f5d2c9e983a2.jpg",
     "static/media/3.jpg": "/breakTheSilenceReact/static/media/3.598d0af2a0d58e9245e6.jpg",
     "static/media/lim1.jpg": "/breakTheSilenceReact/static/media/lim1.85341df1aeccc8f5aaa4.jpg",
@@ -31,15 +32,16 @@
     "static/media/matt2.jpg": "/breakTheSilenceReact/static/media/matt2.a23051b54f39ad753d73.jpg",
     "static/media/lucho1.jpg": "/breakTheSilenceReact/static/media/lucho1.cf5e21553a5efa602763.jpg",
     "static/media/matt.jpg": "/breakTheSilenceReact/static/media/matt.302d7b10bf36ce8e9b08.jpg",
+    "static/media/logo1.png": "/breakTheSilenceReact/static/media/logo1.79d4b6b48296bee33612.png",
     "static/media/5.jfif": "/breakTheSilenceReact/static/media/5.70d0220bf0003bed7bb6.jfif",
     "static/media/7.jfif": "/breakTheSilenceReact/static/media/7.c1c585b03ce19ae97f68.jfif",
     "index.html": "/breakTheSilenceReact/index.html",
-    "main.d1c2cde9.css.map": "/breakTheSilenceReact/static/css/main.d1c2cde9.css.map",
-    "main.a89feaaf.js.map": "/breakTheSilenceReact/static/js/main.a89feaaf.js.map",
+    "main.aa37a0c0.css.map": "/breakTheSilenceReact/static/css/main.aa37a0c0.css.map",
+    "main.7ba04437.js.map": "/breakTheSilenceReact/static/js/main.7ba04437.js.map",
     "787.a9e47e78.chunk.js.map": "/breakTheSilenceReact/static/js/787.a9e47e78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1c2cde9.css",
-    "static/js/main.a89feaaf.js"
+    "static/css/main.aa37a0c0.css",
+    "static/js/main.7ba04437.js"
   ]
 }
