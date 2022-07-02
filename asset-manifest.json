@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/breakTheSilenceReact/static/css/main.aa37a0c0.css",
-    "main.js": "/breakTheSilenceReact/static/js/main.7ba04437.js",
+    "main.css": "/breakTheSilenceReact/static/css/main.c37109fe.css",
+    "main.js": "/breakTheSilenceReact/static/js/main.c0697208.js",
     "static/js/787.a9e47e78.chunk.js": "/breakTheSilenceReact/static/js/787.a9e47e78.chunk.js",
     "static/media/bts-bt21.gif": "/breakTheSilenceReact/static/media/bts-bt21.1d681da888394b491067.gif",
     "static/media/matt1.JPG": "/breakTheSilenceReact/static/media/matt1.f3256f0e9d8d784df496.JPG",
     "static/media/chimmy.gif": "/breakTheSilenceReact/static/media/chimmy.33813f89a810f3d05d74.gif",
+    "static/media/loading.gif": "/breakTheSilenceReact/static/media/loading.80cdda42e5fb7bb002b1.gif",
     "static/media/shooky.gif": "/breakTheSilenceReact/static/media/shooky.2e0f66fad7a37ec66e3c.gif",
     "static/media/koya.gif": "/breakTheSilenceReact/static/media/koya.32a46a037dd00fa514aa.gif",
     "static/media/pucho.png": "/breakTheSilenceReact/static/media/pucho.5ca8728a91a0f93e6684.png",
@@ -36,12 +37,12 @@
     "static/media/5.jfif": "/breakTheSilenceReact/static/media/5.70d0220bf0003bed7bb6.jfif",
     "static/media/7.jfif": "/breakTheSilenceReact/static/media/7.c1c585b03ce19ae97f68.jfif",
     "index.html": "/breakTheSilenceReact/index.html",
-    "main.aa37a0c0.css.map": "/breakTheSilenceReact/static/css/main.aa37a0c0.css.map",
-    "main.7ba04437.js.map": "/breakTheSilenceReact/static/js/main.7ba04437.js.map",
+    "main.c37109fe.css.map": "/breakTheSilenceReact/static/css/main.c37109fe.css.map",
+    "main.c0697208.js.map": "/breakTheSilenceReact/static/js/main.c0697208.js.map",
     "787.a9e47e78.chunk.js.map": "/breakTheSilenceReact/static/js/787.a9e47e78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa37a0c0.css",
-    "static/js/main.7ba04437.js"
+    "static/css/main.c37109fe.css",
+    "static/js/main.c0697208.js"
   ]
 }
