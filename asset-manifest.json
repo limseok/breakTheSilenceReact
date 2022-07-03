@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/breakTheSilenceReact/static/css/main.57dbc791.css",
-    "main.js": "/breakTheSilenceReact/static/js/main.ee05871b.js",
+    "main.js": "/breakTheSilenceReact/static/js/main.e314b357.js",
     "static/js/787.a9e47e78.chunk.js": "/breakTheSilenceReact/static/js/787.a9e47e78.chunk.js",
     "static/media/bts-bt21.gif": "/breakTheSilenceReact/static/media/bts-bt21.1d681da888394b491067.gif",
     "static/media/matt1.JPG": "/breakTheSilenceReact/static/media/matt1.f3256f0e9d8d784df496.JPG",
@@ -39,11 +39,11 @@
     "static/media/7.jfif": "/breakTheSilenceReact/static/media/7.c1c585b03ce19ae97f68.jfif",
     "index.html": "/breakTheSilenceReact/index.html",
     "main.57dbc791.css.map": "/breakTheSilenceReact/static/css/main.57dbc791.css.map",
-    "main.ee05871b.js.map": "/breakTheSilenceReact/static/js/main.ee05871b.js.map",
+    "main.e314b357.js.map": "/breakTheSilenceReact/static/js/main.e314b357.js.map",
     "787.a9e47e78.chunk.js.map": "/breakTheSilenceReact/static/js/787.a9e47e78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57dbc791.css",
-    "static/js/main.ee05871b.js"
+    "static/js/main.e314b357.js"
   ]
 }
