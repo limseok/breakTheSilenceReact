@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/breakTheSilenceReact/static/css/main.fec70404.css",
+    "main.css": "/breakTheSilenceReact/static/css/main.57dbc791.css",
     "main.js": "/breakTheSilenceReact/static/js/main.ee05871b.js",
     "static/js/787.a9e47e78.chunk.js": "/breakTheSilenceReact/static/js/787.a9e47e78.chunk.js",
     "static/media/bts-bt21.gif": "/breakTheSilenceReact/static/media/bts-bt21.1d681da888394b491067.gif",
@@ -38,12 +38,12 @@
     "static/media/5.jfif": "/breakTheSilenceReact/static/media/5.70d0220bf0003bed7bb6.jfif",
     "static/media/7.jfif": "/breakTheSilenceReact/static/media/7.c1c585b03ce19ae97f68.jfif",
     "index.html": "/breakTheSilenceReact/index.html",
-    "main.fec70404.css.map": "/breakTheSilenceReact/static/css/main.fec70404.css.map",
+    "main.57dbc791.css.map": "/breakTheSilenceReact/static/css/main.57dbc791.css.map",
     "main.ee05871b.js.map": "/breakTheSilenceReact/static/js/main.ee05871b.js.map",
     "787.a9e47e78.chunk.js.map": "/breakTheSilenceReact/static/js/787.a9e47e78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fec70404.css",
+    "static/css/main.57dbc791.css",
     "static/js/main.ee05871b.js"
   ]
 }
